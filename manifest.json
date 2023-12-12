@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "Cute Pomodoro & Eye Rest Timer",
+    "version": "1.0",
+    "description": "Stay on track by giving your mind and eyes the break they need!",
+    "icons": {
+      "16": "images/icon-16.png",
+      "32": "images/icon-32.png",
+      "48": "images/icon-48.png",
+      "128": "images/icon-128.png"
+    },
+    "action": {
+        "default_icon": "images/icon-128.png",
+        "default_title": "Cute Timer",
+        "default_popup": "popup.html"
+      },
+    "permissions": ["storage", "alarms", "notifications"],
+    "background": {
+        "service_worker": "background.js"
+    }
+  }
