@@ -1,0 +1,70 @@
+body {
+    height: 400px;
+    width: 350px;
+    background-color: #C8FFA6;
+  }
+
+  .header {
+    display: flex;
+    justify-content: center;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  #time {
+    text-align: center;
+    font-size: 50px;
+    margin: 10px;
+    font-weight: normal;
+    font-family: 'Varela Round', Arial, Helvetica, sans-serif;
+    color: #010101;
+  }
+  
+  #btn-container {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  #btn-container > button {
+    color: #010101;
+    background-color: whitesmoke;
+    border:#010101;
+    border-style: solid;
+    outline: none;
+    border-radius: 5px;
+    padding: 8px;
+    font-weight: bold;
+    width: 100px;
+    cursor: pointer;
+  }
+  
+  #task-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .task-input {
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    margin: 5px;
+    padding: 5px 10px 5px 10px;
+    width: 250px;
+  }
+  
+  .task-delete {
+    outline: none;
+    border: none;
+    height: 25px;
+    width: 25px;
+    border-radius: 4px;
+    color: rgb(92, 205, 126);
+    cursor: pointer;
+    font-weight: 700;
+  }
